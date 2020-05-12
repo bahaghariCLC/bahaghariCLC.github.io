@@ -1,201 +1,68 @@
-		body {
-				margin: 20% 0 0 0;
-				background-size: 100%;
-				background-color: #f8f8fa;
-				background-repeat: no-repeat;
-			}
-		.navbar-nav {
-			margin: 0 140px 0 0;
-		}
-			.logoNav {
-				max-width: 2%;
-				max-height: 100%;
-				margin: 0 0 0 140px;
-			}
-			.logoTNav {
-				max-width: 13%;
-				max-height: 100%;
-				padding:12px 5px 2px 15px;
-			}
-			ul.navLogo {
-				list-style-type: none;
-				margin-right: auto;
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				text-align: left;
-				width: 100%;
-				display: inline-block;
-			}
-			ul.nav {
-				list-style-type: none;
-				margin-right: auto;
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				text-align: right;
-				width: 100%;
-				display: inline-block;
-			}
-			li.nav {
-				display: inline-block;
-			}
-			li.nav a {
-				font-family: Lato;
-				font-size: 12pt;
-				color: #000000;
-				display: block;
-				text-align: center;
-				padding: 20px 75px 20px 75px;
-				text-decoration: none;
-				margin-left:auto;
-				margin-right:auto;
-				transition: all 0.5s ease;
-			}
-			li.nav a:hover {
-				color: #999999;
-			}
-			section {
-				width: 45%;
-				padding: 10% 10% 2% 5%;
-				float: left;
-			}
-			aside {
-				width: 25%;
-				padding: 10% 5% 2% 10%;
-				float: left;
-			}
-			.title {
-				font-family: Josefin Sans;
-				font-size: 30pt;
-				text-align: center;
-				margin-top: 0;
-				margin-bottom: 10px;
-			}
-			table, td {
-				margin-right: auto;
-				margin-left: auto;
-			}
-			.product {
-				width: 80%;
-				font-family: Lato;
-				font-style: italic;
-				font-size: 12pt;
-			}
-			td {
-				width: 20%;
-				font-family: Lato;
-				font-size: 12pt;
-			}
-			.more {
-				font-family: Lato;
-				font-size: 10pt;
-				font-style: italic;
-				text-align: center;
-			}
-			a {
-				text-decoration: none;
-				color: black;
-				transition: 0.5s ease;
-			}
-			a:hover {
-				color: #999999;
-			}
-			article {
-				margin: 0 0 0 0;
-			}
-			.img {
-				padding: 3px;
-				border: 1px solid #d3d3d3;
-				margin: 5px;
-				width: 46.5%;
-			}
-			blockquote {
-				text-align: center;
-				font-family: Lato;
-				font-size: 25pt;
-				margin: 0;
-				font-style: italic;
-			}
-			.whosaid {
-				font-family: Lato;
-				font-size: 13pt;
-				margin: 15px 0 0 0;
-				text-align: center;
-			}
-			div {
-				margin-right: auto;
-				margin-left: auto;
-			}
-			hr {
-				border: 0.5px solid black;
-				margin: 30px 30% 30px 30%;
-				clear: both;
-			}
-			div.tainer {
-				width: 50%;
-				margin-right: auto;
-				margin-left: auto;
-				float: left;
-				text-align: center;
-				margin: 10px 0 10px 0;
-			}
-			img.tainer {
-				height: 50px;
-				border: none;
-			}
-			.place {
-				font-family: Lato;
-				font-size: 12pt;
-				text-align: center;
-				margin: 0;
-			}
-
-			.center {
-				margin-right: auto;
-				margin-left: auto;
-				display: block;
-			}
-			footer {
-				width: 100%;
-				font-family: Lato;
-				text-align: center;
-				margin-right: auto;
-				margin-left: auto;
-				clear: both;
-			}
-			@media (max-width: 992px) {
-				#sidenav-left {
-					position: static;
-					width: 100%;
-				}
-				.nav-stacked li {
-					display: inline-block;
-				}
-				ul.nav-stacked {
-					text-align: center;
-				}
-				ul.nav-stacked2 {
-					text-align: left;
-				}
-				.nav-link a:hover {
-					color: #aed135;
-					border-right: 2px solid transparent;
-				}
-				.nav-link .active {
-					color: #aed135;
-					border-right: 2px solid transparent;
-				}
-				img.dp {
-					display: none;
-				}
-				.btn-primary {
-					float: left;
-					margin: 0 10px 0 0;
-				}
-			}
-			@media (min-width: 992px) {
-				#sidenav-left {
-					height: 100vh;
-				}
-			}
+body {
+	padding: 6% 0 0 0;
+	background-size: 100%;
+	background-color: #f8f8fa;
+	background-repeat: no-repeat;
+}
+.navbar-nav {
+	margin: 0 140px 0 0;
+}
+.logoNav {
+	max-width: 2%;
+	max-height: 100%;
+	margin: 0 0 0 140px;
+}
+.logoTNav {
+	max-width: 13%;
+	max-height: 100%;
+	padding:12px 5px 2px 15px;
+}
+.sideBar {
+	font-size: 12px;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	margin: 0 0px 0 0;
+}
+.date {
+	font-size: 20px;
+	font-family: Bebas Neue;
+	background-color: #343A41;
+	color: white;
+	padding: 3px 0 3px 10px;
+}
+@media (max-width: 992px) {
+	#sidenav-left {
+		position: static;
+		width: 100%;
+	}
+	.nav-stacked li {
+		display: inline-block;
+	}
+	ul.nav-stacked {
+		text-align: center;
+	}
+	ul.nav-stacked2 {
+		text-align: left;
+	}
+	.nav-link a:hover {
+		color: #aed135;
+		border-right: 2px solid transparent;
+	}
+	.nav-link .active {
+		color: #aed135;
+		border-right: 2px solid transparent;
+	}
+	img.dp {
+		display: none;
+	}
+	.btn-primary {
+		float: left;
+		margin: 0 0px 0 0;
+	}
+}
+@media (min-width: 992px) {
+	#sidenav-left {
+		height: 100vh;
+	}
+}
