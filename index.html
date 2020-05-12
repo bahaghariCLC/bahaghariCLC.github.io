@@ -1,192 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>The Barista</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bahaghari</title>
+		<link href="style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato" rel="stylesheet">
-		<style>
-			body {
-				width: 100%;
-				margin: 0;
-				background-image: url("https://i.imgur.com/i5POgXP.png");
-				background-size: 100%;
-				background-color: #f8f8fa;
-				background-repeat: no-repeat;
-			}
-			header {
-				padding: 15% 0% 6% 10%;
-			}
-			.htitle {
-				font-family: Josefin Sans;
-				font-size: 80pt;
-				margin: 0;
-			}
-			.hsubtitle {
-				font-family: Josefin Sans;
-				font-size: 40pt;
-				margin: 0;
-			}
-			nav {
-				width: 100%;
-			}
-			ul.nav {
-				list-style-type: none;
-				margin-left: auto;
-				margin-right: auto;
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				text-align: center;
-				width: 100%;
-				display: inline-block;
-			}
-			li.nav {
-				display: inline-block;
-			}
-			li.nav a {
-				font-family: Lato;
-				font-size: 12pt;
-				color: #000000;
-				display: block;
-				text-align: center;
-				padding: 20px 75px 20px 75px;
-				text-decoration: none;
-				margin-left:auto;
-				margin-right:auto;
-				transition: all 0.5s ease;
-			}
-			li.nav a:hover {
-				color: #999999;
-			}
-			section {
-				width: 45%;
-				padding: 10% 10% 2% 5%;
-				float: left;
-			}
-			aside {
-				width: 25%;
-				padding: 10% 5% 2% 10%;
-				float: left;
-			}
-			.title {
-				font-family: Josefin Sans;
-				font-size: 30pt;
-				text-align: center;
-				margin-top: 0;
-				margin-bottom: 10px;
-			}
-			table, td {
-				margin-right: auto;
-				margin-left: auto;
-			}
-			.product {
-				width: 80%;
-				font-family: Lato;
-				font-style: italic;
-				font-size: 12pt;
-			}
-			td {
-				width: 20%;
-				font-family: Lato;
-				font-size: 12pt;
-			}
-			.more {
-				font-family: Lato;
-				font-size: 10pt;
-				font-style: italic;
-				text-align: center;
-			}
-			a {
-				text-decoration: none;
-				color: black;
-				transition: 0.5s ease;
-			}
-			a:hover {
-				color: #999999;
-			}
-			article {
-				margin: 0 0 0 0;
-			}
-			.img {
-				padding: 3px;
-				border: 1px solid #d3d3d3;
-				margin: 5px;
-				width: 46.5%;
-			}
-			blockquote {
-				text-align: center;
-				font-family: Lato;
-				font-size: 25pt;
-				margin: 0;
-				font-style: italic;
-			}
-			.whosaid {
-				font-family: Lato;
-				font-size: 13pt;
-				margin: 15px 0 0 0;
-				text-align: center;
-			}
-			div {
-				margin-right: auto;
-				margin-left: auto;
-			}
-			hr {
-				border: 0.5px solid black;
-				margin: 30px 30% 30px 30%;
-				clear: both;
-			}
-			div.tainer {
-				width: 50%;
-				margin-right: auto;
-				margin-left: auto;
-				float: left;
-				text-align: center;
-				margin: 10px 0 10px 0;
-			}
-			img.tainer {
-				height: 50px;
-				border: none;
-			}
-			.place {
-				font-family: Lato;
-				font-size: 12pt;
-				text-align: center;
-				margin: 0;
-			}
-			.logo {
-				width: 25%;
-				border: none;
-			}
-			.center {
-				margin-right: auto;
-				margin-left: auto;
-				display: block;
-			}
-			footer {
-				width: 100%;
-				font-family: Lato;
-				text-align: center;
-				margin-right: auto;
-				margin-left: auto;
-				clear: both;
-			}
-		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav>
-			<ul class="nav">
-				<li class="nav"><a href="https://i.imgur.com/utvotUR.png">home</a></li>
-				<li class="nav"><a href="https://i.imgur.com/utvotUR.png">about</a></li>
-				<li class="nav"><a href="https://i.imgur.com/utvotUR.png">menu</a></li>
-				<li class="nav"><a href="https://i.imgur.com/utvotUR.png">locations</a></li>
-				<li class="nav"><a href="https://i.imgur.com/utvotUR.png">contact</a></li>
-			</ul>
-		</nav>
-		<header>
-			<span class="htitle">the barista</span>
-			<br>
-			<span class="hsubtitle">another café from earth</span>
-		</header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  		<a class="navbar-brand" href="#"><img style="max-width: 100%;max-height:100%" src="bahaghari.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
+  </div>
+</nav>
 		<aside>
 			<img class="logo center" src="https://i.imgur.com/I8Dt9HO.png">
 			<article>
