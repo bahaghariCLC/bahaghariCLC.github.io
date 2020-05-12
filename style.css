@@ -6,6 +6,7 @@ body {
 }
 .navbar-nav {
 	margin: 0 140px 0 0;
+	font-family: "Roboto";
 }
 .logoNav {
 	max-width: 2%;
@@ -26,10 +27,46 @@ body {
 }
 .date {
 	font-size: 20px;
-	font-family: Bebas Neue;
+	font-family: "Bebas Neue";
 	background-color: #343A41;
 	color: white;
 	padding: 3px 0 3px 10px;
+}
+.categ {
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: silver;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+}
+.titleS {
+	font-family: "Roboto";
+	letter-spacing: 0px;
+	font-size: 12pt;
+}
+.categS {
+	font-size: 13px;
+	font-family: "Bebas Neue";
+	color: white;
+	padding: 1px 5px;
+	margin: 0 5px 0 0;
+}
+.titleM {
+	font-size: 45px;
+	font-family: "Roboto";
+}
+.balS {
+	background-color: #E3342C;
+}
+.opiS {
+	background-color: #149146;
+}
+.latS {
+	background-color: #5FBBD3;
+}
+.writerS {
+	font-family: "Roboto";
+	font-weight: 300;
 }
 @media (max-width: 992px) {
 	#sidenav-left {
