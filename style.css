@@ -163,6 +163,9 @@ a:visited {
 	.sideBar {
 		display:none;
 	}
+	.conte {
+		margin: 0;
+	}
 
 }
 @media (min-width: 992px) {
