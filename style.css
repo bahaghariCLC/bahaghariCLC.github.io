@@ -1,7 +1,6 @@
 		body {
 				width: 100%;
 				margin: 0;
-				background-image: url("https://i.imgur.com/i5POgXP.png");
 				background-size: 100%;
 				background-color: #f8f8fa;
 				background-repeat: no-repeat;
@@ -17,12 +16,17 @@
 				margin: 0;
 			}
 			nav {
-		
+
 			}
-			.logo {
-				max-width: 50px;
-				max-height: 50px;
-				padding:20px;
+			.logoNav {
+				max-width: 2%;
+				max-height: 100%;
+				padding:0px;
+			}
+			.logoTNav {
+				max-width: 13%;
+				max-height: 100%;
+				padding:10px 5px 5px 20px;
 			}
 			ul.navLogo {
 				list-style-type: none;
