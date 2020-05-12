@@ -99,7 +99,7 @@ a:visited {
 .titleM {
 	font-size: 40px;
 	font-family: "Roboto";
-	line-height: 70%;
+	line-height: 100%;
 }
 .writerS {
 	font-size: 12px;
@@ -113,8 +113,8 @@ a:visited {
 	font-weight: 100;
 	font-style: italic;
 }
-.cont {
-	margin: 0 0 0 10px;
+.conte {
+	margin: 0 0 0 40px;
 }
 .top {
 	margin-top: 15px;
